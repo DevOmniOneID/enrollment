@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package com.example.oid4vc.enrollment.core.entity;
+package org.omnione.did.oid4vc.enrollment.core.entity;
 
 import org.omnione.did.data.model.did.DidDocument;
 import org.omnione.did.data.model.did.Proof;
-import com.example.oid4vc.enrollment.exception.SdkException;
+import org.omnione.did.oid4vc.enrollment.exception.SdkException;
 
 /**
  * Unified interface for entity operations combining wallet and signature functionalities.

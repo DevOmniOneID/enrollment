@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.oid4vc.enrollment.core.enroll;
+package org.omnione.did.oid4vc.enrollment.core.enroll;
 
 import lombok.Builder;
 import lombok.Data;

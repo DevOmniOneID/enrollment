@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.example.oid4vc.enrollment.core.enroll;
+package org.omnione.did.oid4vc.enrollment.core.enroll;
 
 import org.omnione.did.data.model.did.DidDocument;
 import org.omnione.did.data.model.enums.vc.RoleType;
-import com.example.oid4vc.enrollment.core.model.EnrollRequest;
-import com.example.oid4vc.enrollment.core.model.EnrollResponse;
-import com.example.oid4vc.enrollment.exception.SdkException;
+import org.omnione.did.oid4vc.enrollment.core.model.EnrollRequest;
+import org.omnione.did.oid4vc.enrollment.core.model.EnrollResponse;
+import org.omnione.did.oid4vc.enrollment.exception.SdkException;
 
 /**
  * Main interface for entity enrollment SDK.

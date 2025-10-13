@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.oid4vc.enrollment.core.crypto;
+package org.omnione.did.oid4vc.enrollment.core.crypto;
 
 import lombok.extern.slf4j.Slf4j;
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
@@ -26,7 +26,7 @@ import org.omnione.did.crypto.util.DigestUtils;
 import org.omnione.did.crypto.util.MultiBaseUtils;
 import org.omnione.did.data.model.enums.profile.EccCurveType;
 import org.omnione.did.data.model.enums.profile.SymmetricCipherType;
-import com.example.oid4vc.enrollment.exception.SdkException;
+import org.omnione.did.oid4vc.enrollment.exception.SdkException;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;

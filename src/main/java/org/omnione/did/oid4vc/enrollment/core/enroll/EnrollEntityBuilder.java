@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.example.oid4vc.enrollment.core.enroll;
+package org.omnione.did.oid4vc.enrollment.core.enroll;
 
-import com.example.oid4vc.enrollment.core.crypto.CryptoProvider;
-import com.example.oid4vc.enrollment.core.entity.EntityProvider;
-import com.example.oid4vc.enrollment.core.transport.DefaultTransportProvider;
-import com.example.oid4vc.enrollment.core.transport.TransportProvider;
-import com.example.oid4vc.enrollment.exception.SdkException;
+import org.omnione.did.oid4vc.enrollment.core.crypto.CryptoProvider;
+import org.omnione.did.oid4vc.enrollment.core.entity.EntityProvider;
+import org.omnione.did.oid4vc.enrollment.core.transport.DefaultTransportProvider;
+import org.omnione.did.oid4vc.enrollment.core.transport.TransportProvider;
+import org.omnione.did.oid4vc.enrollment.exception.SdkException;
 
 /**
  * Builder class for creating EnrollEntitySDK instances.

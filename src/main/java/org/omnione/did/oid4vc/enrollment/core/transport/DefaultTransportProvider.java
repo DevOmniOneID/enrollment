@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.example.oid4vc.enrollment.core.transport;
+package org.omnione.did.oid4vc.enrollment.core.transport;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
-import com.example.oid4vc.enrollment.config.JacksonConfig;
-import com.example.oid4vc.enrollment.exception.SdkException;
+import org.omnione.did.oid4vc.enrollment.config.JacksonConfig;
+import org.omnione.did.oid4vc.enrollment.exception.SdkException;
 
 import java.io.IOException;
 import java.net.URI;

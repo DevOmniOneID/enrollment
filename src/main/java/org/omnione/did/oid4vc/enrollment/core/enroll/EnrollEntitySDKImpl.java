@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.example.oid4vc.enrollment.core.enroll;
+package org.omnione.did.oid4vc.enrollment.core.enroll;
 
-import com.example.oid4vc.enrollment.config.JacksonConfig;
-import com.example.oid4vc.enrollment.core.model.EnrollContext;
-import com.example.oid4vc.enrollment.core.model.EnrollRequest;
-import com.example.oid4vc.enrollment.core.model.EnrollResponse;
+import org.omnione.did.oid4vc.enrollment.config.JacksonConfig;
+import org.omnione.did.oid4vc.enrollment.core.model.EnrollContext;
+import org.omnione.did.oid4vc.enrollment.core.model.EnrollRequest;
+import org.omnione.did.oid4vc.enrollment.core.model.EnrollResponse;
 import java.nio.charset.StandardCharsets;
 import java.util.UUID;
 import lombok.extern.slf4j.Slf4j;
@@ -33,11 +33,11 @@ import org.omnione.did.data.model.enums.did.ProofType;
 import org.omnione.did.data.model.enums.profile.SymmetricCipherType;
 import org.omnione.did.data.model.enums.vc.RoleType;
 import org.omnione.did.data.model.vc.VerifiableCredential;
-import com.example.oid4vc.enrollment.core.crypto.CryptoProvider;
-import com.example.oid4vc.enrollment.core.entity.EntityProvider;
-import com.example.oid4vc.enrollment.core.model.*;
-import com.example.oid4vc.enrollment.core.transport.TransportProvider;
-import com.example.oid4vc.enrollment.exception.SdkException;
+import org.omnione.did.oid4vc.enrollment.core.crypto.CryptoProvider;
+import org.omnione.did.oid4vc.enrollment.core.entity.EntityProvider;
+import org.omnione.did.oid4vc.enrollment.core.model.*;
+import org.omnione.did.oid4vc.enrollment.core.transport.TransportProvider;
+import org.omnione.did.oid4vc.enrollment.exception.SdkException;
 
 import java.security.interfaces.ECPrivateKey;
 import java.time.Instant;

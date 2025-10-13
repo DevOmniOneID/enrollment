@@ -16,12 +16,12 @@
 
 import org.omnione.did.data.model.did.DidDocument;
 import org.omnione.did.data.model.enums.vc.RoleType;
-import com.example.oid4vc.enrollment.core.crypto.DefaultCryptoProvider;
-import com.example.oid4vc.enrollment.core.enroll.EnrollEntityBuilder;
-import com.example.oid4vc.enrollment.core.enroll.EnrollEntityConfig;
-import com.example.oid4vc.enrollment.core.enroll.EnrollEntitySDK;
-import com.example.oid4vc.enrollment.core.entity.DefaultEntityProvider;
-import com.example.oid4vc.enrollment.core.model.EnrollResponse;
+import org.omnione.did.oid4vc.enrollment.core.crypto.DefaultCryptoProvider;
+import org.omnione.did.oid4vc.enrollment.core.enroll.EnrollEntityBuilder;
+import org.omnione.did.oid4vc.enrollment.core.enroll.EnrollEntityConfig;
+import org.omnione.did.oid4vc.enrollment.core.enroll.EnrollEntitySDK;
+import org.omnione.did.oid4vc.enrollment.core.entity.DefaultEntityProvider;
+import org.omnione.did.oid4vc.enrollment.core.model.EnrollResponse;
 
 import java.io.IOException;
 import java.io.InputStream;

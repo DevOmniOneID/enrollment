@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.example.oid4vc.enrollment.core.crypto;
+package org.omnione.did.oid4vc.enrollment.core.crypto;
 
 import org.omnione.did.crypto.keypair.EcKeyPair;
 import org.omnione.did.data.model.enums.profile.EccCurveType;
 import org.omnione.did.data.model.enums.profile.SymmetricCipherType;
-import com.example.oid4vc.enrollment.exception.SdkException;
+import org.omnione.did.oid4vc.enrollment.exception.SdkException;
 
 /**
  * Interface for cryptographic operations.

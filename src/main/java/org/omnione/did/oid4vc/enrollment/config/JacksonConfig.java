@@ -1,4 +1,4 @@
-package com.example.oid4vc.enrollment.config;
+package org.omnione.did.oid4vc.enrollment.config;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonParser;

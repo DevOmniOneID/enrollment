@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.example.oid4vc.enrollment.core.transport;
+package org.omnione.did.oid4vc.enrollment.core.transport;
 
-import com.example.oid4vc.enrollment.exception.SdkException;
+import org.omnione.did.oid4vc.enrollment.exception.SdkException;
 
 import java.util.Map;
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.oid4vc.enrollment.core.entity;
+package org.omnione.did.oid4vc.enrollment.core.entity;
 
 import lombok.extern.slf4j.Slf4j;
 import org.omnione.did.crypto.enums.MultiBaseType;
@@ -23,7 +23,7 @@ import org.omnione.did.data.model.did.DidDocument;
 import org.omnione.did.data.model.did.Proof;
 import org.omnione.did.data.model.did.VerificationMethod;
 import org.omnione.did.data.model.vc.VerifiableCredential;
-import com.example.oid4vc.enrollment.exception.SdkException;
+import org.omnione.did.oid4vc.enrollment.exception.SdkException;
 import org.omnione.did.wallet.key.WalletManagerInterface;
 
 import java.nio.charset.StandardCharsets;

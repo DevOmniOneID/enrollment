@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.oid4vc.enrollment.exception;
+package org.omnione.did.oid4vc.enrollment.exception;
 
 /**
  * Base exception class for DID SDK operations.
