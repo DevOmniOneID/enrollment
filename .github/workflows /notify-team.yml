@@ -1,6 +1,6 @@
 on:
-  workflow_call:
-
+  issues:
+    types: [opened]
 jobs:
   notify:
     runs-on: ubuntu-latest
@@ -14,3 +14,4 @@ jobs:
               repo: context.repo.repo,
               body: '/cc @DevOmniOneID/TestDev1'
             })
+           
